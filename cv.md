@@ -1,4 +1,4 @@
- ![photo](/photo%20for%20CV.jpeg) <img src="./photo%20for%20CV.jpeg" width="150" height="150" />
+<img src="./photo%20for%20CV.jpeg" width="120" height="150" />
 
  # ALESIA VASILKOVA
  
@@ -29,6 +29,14 @@ describe("Multiply", () => {
     assert.strictEqual(multiply(0,0), 0); 
   });
 });
-```
+```  
+
 **Projects:**  
  [CV](https://github.com/Alesia-Vasilkova/rsschool-cv/blob/gh-pages/cv.md?plain=1) 
+
+ **Education:**  
+*Rsshool "JS / Front-end Pre-school" - in progress*  
+*BSPU*  
+
+**English:**  
+*Intermediate*  
