@@ -1,10 +1,10 @@
- ![photo](/rsschool-cv/photo%20for%20CV.jpeg)
+ ![photo](/photo%20for%20CV.jpeg)
 
  # ALESIA VASILKOVA
  
  **contact information:** 
 *+48572994041*  
-*leska.vasilkova@inbox.ru* 
+*leska.vasilkova@inbox.ru*  
 *tg:leska_vasilkova*  
 *github: [Alesia-Vasilkova](https://github.com/Alesia-Vasilkova)* 
 *discord: Lesia Vasilek (alesia-vasilkova)*
@@ -29,3 +29,4 @@ describe("Multiply", () => {
 });
 ```
 **Projects:**
+ [CV](https://github.com/Alesia-Vasilkova/rsschool-cv/blob/gh-pages/cv.md?plain=1) 
