@@ -1,8 +1,8 @@
- ![photo](/photo%20for%20CV.jpeg)
+ ![photo](/photo%20for%20CV.jpeg) <img src="./photo%20for%20CV.jpeg" width="150" height="150" />
 
  # ALESIA VASILKOVA
  
- **contact information:**  
+ **Contact information:**  
 *+48572994041*  
 *leska.vasilkova@inbox.ru*  
 *tg:leska_vasilkova*  
