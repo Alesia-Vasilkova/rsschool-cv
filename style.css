@@ -1,3 +1,8 @@
-<p style="font-size:30px;">Interesting information</p>
-<div style="font-size: 20px; border:1px solid #000;"">I can tell you if you want</div> 
+<style>
+  div {font-size:30px;}
+  p {font-size:20px;}
+  </style>
+
+<div>Interesting information</div>
+<p style="border:1px solid #000;"">I can tell you if you want</p>  
 
