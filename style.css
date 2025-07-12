@@ -8,39 +8,30 @@
     src: url("assets/fonts/AnonymousPro-Regular.ttf");
     font-weight: 100;
 }
-body {
-    font-family: "AnonimousPro";
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-}
 * {
     box-sizing: border-box;
   }
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "AnonimousPro";
+}
 header {
     border: 1px solid red;
+    height: 80px;
 }
 .container {
     max-width: 1440px;
     margin: 0 auto;
 }
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 img {
     width: 80px;
     border-radius: 50%;
-}
-div {
-    font-size:30px;
-    color:darkgreen;
-}
-p {
-    font-size:20px;
-    border:1px solid #000;
-    color:darkolivegreen;
 }
 
 
