@@ -1,8 +1,16 @@
-div {font-size:30px;
-    color:darkgreen}
-p {font-size:20px;
+img {
+    width: 80px;
+    border-radius: 50%;
+}
+div {
+    font-size:30px;
+    color:darkgreen;
+}
+p {
+    font-size:20px;
     border:1px solid #000;
-    color:darkolivegreen}
+    color:darkolivegreen;
+}
 
 
  
