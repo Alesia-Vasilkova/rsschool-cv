@@ -29,6 +29,18 @@ header {
     max-width: 1440px;
     margin: 0 auto;
 }
+.nav-list {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    list-style: none;
+    padding: 0 20px;
+    line-height: 10px;
+    gap: 70px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
 img {
     width: 80px;
     border-radius: 50%;
