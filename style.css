@@ -76,11 +76,22 @@ header {
     font-size: 20px;
     transition: 0.3s;
 }
-img {
+#profile img {
     width: 80px;
     border-radius: 50%;
 }
 footer {
     text-align: center;
     padding: 20px;
+}
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container a {
+    padding-left: 10px;
+}
+.footer-container img {
+    width: 50px;
 }
