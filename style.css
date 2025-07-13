@@ -20,6 +20,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "AnonimousPro";
+    background-image: linear-gradient(to top left, aqua, white)
 }
 body a {
     color: black;
@@ -30,7 +31,7 @@ a:hover {
 }
 header {
     position: fixed;
-    border: 1px solid red;
+    border: 1px solid #a3ffff;
     height: 50px;
     width: 100%;
     background-color: white;
@@ -81,11 +82,5 @@ img {
 }
 footer {
     text-align: center;
-    padding: 5px;
-    border-color: white;
-    border: 1px solid red;
+    padding: 20px;
 }
-
-
- 
-
