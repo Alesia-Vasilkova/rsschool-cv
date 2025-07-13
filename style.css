@@ -21,6 +21,10 @@ body {
     padding: 0;
     font-family: "AnonimousPro";
 }
+body a {
+    color: black;
+    text-decoration: none;
+}
 header {
     border: 1px solid red;
     height: 50px;
@@ -28,6 +32,15 @@ header {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+}
+.container .section {
+    padding: 20px;
+}
+.container #profile {
+    display: flex;
+}
+.container #profile div {
+    margin-left: 30px;
 }
 .nav-list {
     display: flex;
@@ -40,7 +53,6 @@ header {
     font-size: 20px;
     transition: 0.3s;
 }
-
 img {
     width: 80px;
     border-radius: 50%;
