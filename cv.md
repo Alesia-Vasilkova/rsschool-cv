@@ -1,4 +1,4 @@
-<img src="./photo%20for%20CV.jpeg" width="120" height="150" />
+<img src="/assets/img/photo-for-CV.jpeg" width="120" height="150" />
 
  # ALESIA VASILKOVA
  
@@ -13,29 +13,37 @@
 *I am a highly motivated person. For me, development and the desire to learn new things are always a priority. I aim to achieve good results in the learning process, and then in work. The fact that I have no experience is not a problem, over time it will appear and I will become not only motivated, but also a highly qualified specialist.* 
  
  **Skills:**  
- *Git, English Intermediate, Communication* 
+ *Git, HTML, CSS, JS Basic, English Intermediate, Communication* 
 
  **Code:**
   
- ```const assert = require("chai").assert;
-describe("Multiply", () => {
-  it("fixed tests", () => {
-    assert.strictEqual(multiply(1,1), 1);
-    assert.strictEqual(multiply(2,1), 2);
-    assert.strictEqual(multiply(2,2), 4);
-    assert.strictEqual(multiply(3,5), 15); 
-    assert.strictEqual(multiply(5,0), 0);
-    assert.strictEqual(multiply(0,5), 0);
-    assert.strictEqual(multiply(0,0), 0); 
-  });
-});
+ ```function myFunction() {
+				const hamburger = document.getElementById('hamburger-icon');
+				const menu = document.getElementById('main-menu-small');
+				const text = document.getElementById('welcome-text');
+				if (menu.style.display === 'block') {
+					menu.style.display = 'none';
+					hamburger.classList.add('fa-bars');
+					hamburger.classList.remove('fa-close');
+					text.style.display = 'block';
+				} else {
+					menu.style.display = 'block';
+					hamburger.classList.add('fa-close');
+					hamburger.classList.remove('fa-bars');
+					text.style.display = 'none';
+				}
+			}
 ```  
 
 **Projects:**  
- [CV](https://github.com/Alesia-Vasilkova/rsschool-cv/blob/gh-pages/cv.md?plain=1) 
+ [CV](https://github.com/Alesia-Vasilkova/rsschool-cv/blob/gh-pages/cv.md?plain=1)
+ [Museum](https://rolling-scopes-school.github.io/alesia-vasilkova-JSFEPRESCHOOL2025Q2/museum-dom/)
+ [Not-Fight-Club](https://alesia-vasilkova.github.io/not-fight-club/)
+
 
  **Education:**  
-*Rsshool "JS / Front-end Pre-school" - in progress*  
+*Rsshool "JS / Front-end Pre-school"*
+*Rsshool "JS / Front-end - in progress*
 *BSPU*  
 
 **English:**  
