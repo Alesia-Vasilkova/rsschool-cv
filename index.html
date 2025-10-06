@@ -79,36 +79,53 @@
                 <ul>
                 <li>HTML, CSS</li>
                 <li>Git, GitHub</li>
-                <li>Communicative skills</li>
+                <li>JavaScript</li>
                 </ul>
             </section>
             <section class="section" id="code">
                 <h2 class="section-title">Code</h2>
                 <pre><code>
-                    const assert = require("chai").assert;
-                    describe("Multiply", () => {
-                    it("fixed tests", () => {
-                        assert.strictEqual(multiply(1,1), 1);
-                        assert.strictEqual(multiply(2,1), 2);
-                        assert.strictEqual(multiply(2,2), 4);
-                        assert.strictEqual(multiply(3,5), 15); 
-                        assert.strictEqual(multiply(5,0), 0);
-                        assert.strictEqual(multiply(0,5), 0);
-                        assert.strictEqual(multiply(0,0), 0); 
-                    });
-                    });
+                    function myFunction() {
+                        const hamburger = document.getElementById('hamburger-icon');
+                        const menu = document.getElementById('main-menu-small');
+                        const text = document.getElementById('welcome-text');
+                        if (menu.style.display === 'block') {
+                            menu.style.display = 'none';
+                            hamburger.classList.add('fa-bars');
+                            hamburger.classList.remove('fa-close');
+                            text.style.display = 'block';
+                        } else {
+                            menu.style.display = 'block';
+                            hamburger.classList.add('fa-close');
+                            hamburger.classList.remove('fa-bars');
+                            text.style.display = 'none';
+                        }
+                    }
                 </code></pre>
             </section>
             <section class="section" id="projects">
                 <h2 class="section-title">Projects</h2>
                 <ul>
-                <li><a href="#">CV Website</a></li>
+                <li>
+                    <a href="https://github.com/Alesia-Vasilkova/rsschool-cv/blob/gh-pages/cv.md?plain=1">CV Website</a>
+                </li>
+                <li>
+                    <a href="https://rolling-scopes-school.github.io/alesia-vasilkova-JSFEPRESCHOOL2025Q2/museum-dom/">Museum</a>
+                </li>
+                <li>
+                    <a href="https://alesia-vasilkova.github.io/not-fight-club/">Not Fight Club</a>
+                </li>
+                <li>
+                    <a href="https://rolling-scopes-school.github.io/alesia-vasilkova-JSFE2025Q3/portfolio/">Portfolio project</a>
+                </li>
                 </ul>
             </section>
             
             <section class="section" id="education">
                 <h2 class="section-title">Education</h2>
                 <p>Belarusian State Pedagogical University, 2018–2022</p>
+                <p>Rsshool "JS / Front-end Pre-school"</p>
+                <p>Rsshool "JS / Front-end - in progress</p>
             </section>
             
             <section class="section" id="languages">
