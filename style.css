@@ -1,16 +1,41 @@
-@font-face {
-    font-family: "AnonimousPro";
-    src: url("assets/fonts/AnonymousPro-Bold.ttf");
-    font-weight: 300;
-}
-@font-face {
-    font-family: "AnonimousPro";
-    src: url("assets/fonts/AnonymousPro-Regular.ttf");
-    font-weight: 100;
-}
 * {
     box-sizing: border-box;
   }
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    font-family: Oswald;
+    background-color: #222222;
+    color: #222222;
+    margin: 0;
+}
+h1 {
+    font-family: Oswald;
+    font-weight: 300;
+    font-size: 116px;
+    line-height: 132px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    margin-top: 39px;
+    margin-bottom: 21px;
+}
+h2 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    margin: 0;
+}
+body {
+    font-family: Oswald;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -77,7 +102,7 @@ header {
     transition: 0.3s;
 }
 #profile img {
-    width: 80px;
+    width: 150px;
     border-radius: 50%;
 }
 footer {
